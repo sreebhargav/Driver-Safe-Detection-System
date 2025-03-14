@@ -1,0 +1,48 @@
+A real-time AI-powered drowsiness detection system that works without any pre-trained models or datasets. Uses Eye Aspect Ratio (EAR) and dynamic learning to detect drowsiness and trigger alerts.
+
+✨ Quick Features
+✅ AI learns in real-time – No pre-training required
+✅ Triggers sound, email, and SMS alerts for drowsiness
+✅ Works with just a webcam – No extra hardware needed
+✅ Uses DLib for face/eye tracking & Pygame for sound alerts
+
+📌 Run the Code in 10 Secs
+bash
+Copy
+Edit
+git clone https://github.com/YOUR_USERNAME/drowsiness-detection.git
+cd drowsiness-detection
+python3 drowsiness_detection.py
+📸 Demo (Before & After)
+Normal State	Drowsy Detected
+🛠️ Installation
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/YOUR_USERNAME/drowsiness-detection.git
+cd drowsiness-detection
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3️⃣ Run the Script
+bash
+Copy
+Edit
+python3 drowsiness_detection.py
+📧 Alert System (How It Works)
+🔊 Audio Alert: Plays sound when drowsiness is detected
+📩 Email Alert: Sends an email to a designated caretaker
+📲 SMS Alert: Sends an SMS notification via email-to-SMS gateway
+⚡ Tech Stack
+Python (OpenCV, Dlib, NumPy, Pygame)
+Computer Vision (Face & Eye Tracking)
+Machine Learning (Real-Time EAR Analysis)
+Email/SMS API (SMTP for alerts)
+🚀 Contribute
+Pull requests are welcome! If you'd like to add improvements, submit an issue or create a PR.
+
+📜 License
+MIT License
