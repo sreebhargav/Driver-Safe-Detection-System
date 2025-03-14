@@ -1,4 +1,4 @@
-A real-time AI-powered drowsiness detection system that works without any pre-trained models or datasets. Uses Eye Aspect Ratio (EAR) and dynamic learning to detect drowsiness and trigger alerts.
+Developed a real-time AI-powered drowsiness detection system that works without any pre-trained models or datasets. Uses Eye Aspect Ratio (EAR) and dynamic learning to detect drowsiness in real-time.
 
 ✨ Quick Features
 ✅ AI learns in real-time – No pre-training required
@@ -6,22 +6,12 @@ A real-time AI-powered drowsiness detection system that works without any pre-tr
 ✅ Works with just a webcam – No extra hardware needed
 ✅ Uses DLib for face/eye tracking & Pygame for sound alerts
 
-📌 Run the Code in 10 Secs
-bash
-Copy
-Edit
-git clone https://github.com/YOUR_USERNAME/drowsiness-detection.git
-cd drowsiness-detection
-python3 drowsiness_detection.py
-📸 Demo (Before & After)
-Normal State	Drowsy Detected
-🛠️ Installation
 1️⃣ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/YOUR_USERNAME/drowsiness-detection.git
-cd drowsiness-detection
+git clone https://github.com/YOUR_USERNAME/Driver-Safe-Detection-System.git
+cd Driver-Safe-Detection-System
 2️⃣ Install Dependencies
 bash
 Copy
@@ -32,17 +22,23 @@ bash
 Copy
 Edit
 python3 drowsiness_detection.py
-📧 Alert System (How It Works)
-🔊 Audio Alert: Plays sound when drowsiness is detected
-📩 Email Alert: Sends an email to a designated caretaker
-📲 SMS Alert: Sends an SMS notification via email-to-SMS gateway
-⚡ Tech Stack
-Python (OpenCV, Dlib, NumPy, Pygame)
-Computer Vision (Face & Eye Tracking)
-Machine Learning (Real-Time EAR Analysis)
-Email/SMS API (SMTP for alerts)
-🚀 Contribute
-Pull requests are welcome! If you'd like to add improvements, submit an issue or create a PR.
+📸 Demo (Before & After)
+Normal State	Drowsy Detected
+🚨 Alert System (How It Works)
+🔹 Sound Alert – Pygame triggers an alarm sound when drowsiness is detected.
+🔹 Email Alert – Sends an alert email to a caretaker.
+🔹 SMS Alert – Sends a text message to a registered phone number.
+
+🛠️ Tech Stack
+Python 🐍
+OpenCV (for face & eye tracking)
+DLib (for landmark detection)
+Pygame (for sound alerts)
+Twilio & SMTP (for SMS/Email alerts)
+📌 Future Enhancements
+🚀 Mobile App Integration – Sync with a mobile app for real-time notifications
+🎯 Better AI Accuracy – Improve detection using deep learning models
+🌐 Cloud Alerts – Send alerts via a cloud service
 
 📜 License
-MIT License
+This project is open-source under the MIT License.
